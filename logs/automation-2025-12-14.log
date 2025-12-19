@@ -1,0 +1,29 @@
+2025-12-14 14:00:50.066 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2025-12-14 14:00:56.803 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2025-12-14 14:01:00.220 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2025-12-14 14:01:54.383 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2025-12-14 14:01:54.379 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2025-12-14 14:01:54.670 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:01:54.685 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:01:56.253 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:01:56.253 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:01:56.261 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2025-12-14 14:01:56.261 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2025-12-14 14:01:58.841 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2025-12-14 14:01:59.110 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:01:59.723 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:01:59.724 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2025-12-14 14:02:04.875 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2025-12-14 14:02:04.979 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2025-12-14 14:02:07.280 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2025-12-14 14:02:08.613 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2025-12-14 14:02:08.748 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2025-12-14 14:02:10.938 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2025-12-14 14:17:52.130 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2025-12-14 14:17:52.298 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:17:52.743 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2025-12-14 14:17:52.747 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2025-12-14 14:17:59.656 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2025-12-14 14:18:03.206 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2025-12-14 23:52:46.940 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2025-12-14 23:53:20.941 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
