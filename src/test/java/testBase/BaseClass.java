@@ -33,7 +33,7 @@ public class BaseClass {
 		Properties p = new Properties();
 		p.load(file);
 		
-		logger = LogManager.getLogger(this.getClass());			
+		logger = LogManager.getLogger(this.getClass());	
 		
 		//driver = new ChromeDriver();
 		
