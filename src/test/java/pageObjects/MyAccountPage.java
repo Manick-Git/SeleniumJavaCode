@@ -21,6 +21,7 @@ public class MyAccountPage extends BasePage{
 	{
 		try
 		{
+			//test step
 			return (msgHeading.isDisplayed());
 		}
 		catch(Exception e)

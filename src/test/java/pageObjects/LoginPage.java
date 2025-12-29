@@ -37,6 +37,8 @@ public class LoginPage extends BasePage {
 	public void clickLogin()
 	{
 		loginbutton.click();
+
+		//login button clicked
 	}
 
 }
