@@ -37,5 +37,11 @@ public class HomePage extends BasePage{
 		Loginlink.click();
 	}	
 
+	//adding karthik featue
 
+	public void sampleFeature()
+	{
+		//sample feature method
+
+	}
 }
