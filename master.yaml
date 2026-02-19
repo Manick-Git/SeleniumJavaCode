@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  parameters: { browser: chrome }
+  classes:
+    - testCases.TC002_LoginTest
+
