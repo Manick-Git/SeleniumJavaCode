@@ -21,22 +21,27 @@ public class AccountRegistrationPage extends BasePage{
 
 	@FindBy(xpath = "//input[@id='input-email']")
 	WebElement emailtextbox;
+	
+	@FindBy(xpath = "//input[@id='input-telephone']")
+	WebElement telephonetextbox;	
 
 	@FindBy(xpath = "//input[@id='input-password']")
 	WebElement passwordtextbox;
+	
+	@FindBy(xpath = "//input[@id='input-confirm']")
+	WebElement passwordconfirmtextbox;
 
-	@FindBy(xpath= "//button[normalize-space()='Continue']")
+	@FindBy(xpath= "//input[@value='Continue']")
 	WebElement continuebutton;
 
 	@FindBy(xpath = "//input[@name='agree']")
 	WebElement agreechkbox;
 	
 	@FindBy(xpath = "//input[@id='input-newsletter']")
-	WebElement subscribechkbox;
-	
+	WebElement subscribechkbox;	
 	
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
-	WebElement msgConfirmation;	
+	WebElement msgConfirmation;
 	
 	public void setFirstName(String fname)
 	{
@@ -53,9 +58,19 @@ public class AccountRegistrationPage extends BasePage{
 		emailtextbox.sendKeys(email);
 	}
 	
+	public void setPhone(String phone)
+	{
+		telephonetextbox.sendKeys(phone);
+	}
+	
 	public void setPassword(String password)
 	{
 		passwordtextbox.sendKeys(password);
+	}
+	
+	public void confirmPassword(String password)
+	{
+		passwordconfirmtextbox.sendKeys(password);
 	}
 	
 	public void selectContinueButton()
