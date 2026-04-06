@@ -42,6 +42,5 @@ public class HomePage extends BasePage{
 	public void sampleFeature()
 	{
 		//sample feature method
-
 	}
 }
