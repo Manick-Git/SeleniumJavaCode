@@ -14,9 +14,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
-import com.beust.jcommander.Parameter;
 
 public class BaseClass {
 	
@@ -25,7 +24,7 @@ public class BaseClass {
 	public Properties p;
 	@BeforeClass
 	@Parameters({"os","browser"})
-	public void setUp(String os, String br) throws InterruptedException, IOException
+	public void setUp(@Optional("Windows") String os, @Optional("Chrome") String br) throws InterruptedException, IOException
 	{
 		//Loading config.properties file
 		
@@ -53,14 +52,14 @@ public class BaseClass {
 		
 		//Thread.sleep(20000);
 		
-		driver.get(p.getProperty("appURL1")); //reading URL from properties file
+		driver.get(p.getProperty("appURL2")); //reading URL from properties file
 		driver.manage().window().maximize();
 	}
 	
 	@AfterClass
 	public void tearDown()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 	
 	@SuppressWarnings("deprecation")

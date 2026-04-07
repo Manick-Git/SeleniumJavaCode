@@ -36,9 +36,12 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		arp.setFirstName(randomString().toUpperCase());
 		arp.setLastName(randomString().toUpperCase());
 		arp.setEmail(randomString()+"@gmail.com");
+		arp.setPhone(randomNumber());
 		
 		String password = randomAlphanumeric();
 		arp.setPassword(password);
+		
+		arp.confirmPassword(password);		
 		
 		Thread.sleep(3000);
 		
@@ -48,14 +51,25 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		
 		Thread.sleep(3000);
 		
+		System.out.println("Passed 1");
+
+		
 		arp.selectAgree();
+		System.out.println("Passed 2");
+		
+		Thread.sleep(3000);
+
 		//arp.selectSubscribe();
 		arp.selectContinueButton();
 		
-		logger.info("************** validating expected message ************");
+		System.out.println("Passed 3");
 
 		
+		logger.info("************** validating expected message ************");		
+
 		String actulamsg = arp.getConfirmationMsg();
+		
+		System.out.println(actulamsg);
 		
 		Thread.sleep(3000);
 		
