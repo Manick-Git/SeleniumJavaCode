@@ -10,6 +10,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -38,7 +39,18 @@ public class BaseClass {
 		
 		switch(br.toLowerCase())
 		{		
-		case "chrome" : driver=new ChromeDriver();break;
+		case "chrome" :
+			
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless=new"); // Runs Chrome without a GUI
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			//options.addArguments("--remote-allow-origins=*");
+			//options.addArguments("--disable-gpu");
+			driver = new ChromeDriver(options);
+			
+			//driver=new ChromeDriver();
+			break;
 		case "edge" : driver=new EdgeDriver();break;
 		case "firefox" : driver=new FirefoxDriver();break;
 		default : System.out.println("Invalid browser name..."); return;	
@@ -59,7 +71,7 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	
 	@SuppressWarnings("deprecation")
