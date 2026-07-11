@@ -13,3 +13,19 @@
 2026-07-10 22:40:28.457 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
 2026-07-10 22:40:33.262 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
 2026-07-10 22:40:51.568 [main] INFO  testCases.TC002_LoginTest - *************finshed TC02_Login test**********
+2026-07-11 09:56:21.470 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-11 09:56:22.314 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-11 09:56:23.131 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-11 09:56:23.136 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2026-07-11 09:56:35.173 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2026-07-11 09:56:38.210 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2026-07-11 09:56:42.368 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-11 09:57:00.334 [main] INFO  testCases.TC002_LoginTest - *************finshed TC02_Login test**********
+2026-07-11 09:57:33.294 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-11 09:57:34.122 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-11 09:57:34.889 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-11 09:57:34.891 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2026-07-11 09:57:46.103 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2026-07-11 09:57:49.149 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2026-07-11 09:57:54.148 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-11 09:58:12.173 [main] INFO  testCases.TC002_LoginTest - *************finshed TC02_Login test**********
