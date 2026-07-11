@@ -29,12 +29,14 @@
   </dependencyManagement>
 
   <dependencies>
-  		<dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
 		    <groupId>org.seleniumhq.selenium</groupId>
 		    <artifactId>selenium-java</artifactId>
-		    <version>4.41.0</version>
+		    <version>4.45.0</version>
+		    <scope>compile</scope>
 		</dependency>
-		
+				
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 		    <groupId>org.testng</groupId>
@@ -128,8 +130,18 @@
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.33</version>
 </dependency>
+ </dependencies>
+  
+  <repositories>
+    <repository>
+        <id>selenium-snapshots</id>
+        <url>https://htmlunit.org</url> <!-- Placeholder for snapshot sync -->
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
 
-  </dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -151,6 +163,12 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.3.0</version>
+             <configuration>
+                <suiteXmlFiles>
+                    <!-- Points to your TestNG suite file relative to project root -->
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>

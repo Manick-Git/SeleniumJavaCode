@@ -44,7 +44,8 @@ public class TC002_LoginTest extends BaseClass{
 		}
 		
 		logger.info("*************finshed TC02_Login test**********");
-
+		
+		driver.quit();
 		
 	}
 }

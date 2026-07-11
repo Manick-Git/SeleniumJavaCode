@@ -83,7 +83,9 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		}
 		
 		logger.info("**************finished  TC001_AccountRegistrationTest ************");
-
+		
+		//driver.quit();
+		
 	}
 
 }

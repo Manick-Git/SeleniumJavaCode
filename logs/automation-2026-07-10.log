@@ -1,0 +1,36 @@
+2026-07-10 20:49:19.540 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2026-07-10 20:49:31.369 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2026-07-10 20:49:34.424 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2026-07-10 20:49:42.472 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-10 20:50:00.045 [main] INFO  testCases.TC002_LoginTest - *************finshed TC02_Login test**********
+2026-07-10 21:04:14.845 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 21:04:16.329 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+2026-07-10 21:04:16.329 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+2026-07-10 21:04:21.414 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-10 21:12:01.514 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 21:12:03.627 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+2026-07-10 21:12:03.628 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+2026-07-10 21:12:11.989 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-10 21:25:37.765 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 21:25:43.072 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+2026-07-10 21:25:43.073 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+2026-07-10 21:25:49.167 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-10 21:53:00.813 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-10 22:13:24.675 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 22:13:25.654 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+2026-07-10 22:13:25.654 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+2026-07-10 22:13:29.531 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-10 22:25:52.522 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 22:25:53.450 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+2026-07-10 22:25:53.451 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+2026-07-10 22:30:20.035 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 22:30:20.935 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+2026-07-10 22:30:20.935 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+2026-07-10 22:31:38.477 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 22:31:39.634 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed
+2026-07-10 22:31:39.635 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+2026-07-10 22:36:44.802 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 22:36:45.142 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-10 22:36:46.706 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-10 22:36:46.744 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2026-07-10 22:36:58.896 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************

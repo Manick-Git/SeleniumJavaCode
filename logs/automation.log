@@ -1,13 +1,15 @@
-2026-04-06 17:02:51.172 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
-2026-04-06 17:02:53.417 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
-2026-04-06 17:02:53.419 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
-2026-04-06 17:03:05.254 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
-2026-04-06 17:03:08.308 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
-2026-07-09 22:51:14.194 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
-2026-07-09 22:51:15.027 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
-2026-07-09 22:51:15.145 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
-2026-07-09 22:51:15.868 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
-2026-07-09 22:51:15.874 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
-2026-07-09 22:51:29.367 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
-2026-07-09 22:51:32.404 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - *************finshed TC02_Login test**********
-2026-07-09 22:51:32.572 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2026-07-10 22:37:01.951 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2026-07-10 22:39:20.199 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 22:39:21.018 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-10 22:39:21.992 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-10 22:39:21.996 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2026-07-10 22:39:33.948 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2026-07-10 22:39:36.990 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2026-07-10 22:40:11.006 [main] INFO  testCases.TC001_AccountRegistrationTest - **************starting  TC001_AccountRegistrationTest ************
+2026-07-10 22:40:12.011 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-10 22:40:12.882 [main] INFO  testCases.TC001_AccountRegistrationTest - **************clicked on MyAccount ************
+2026-07-10 22:40:12.884 [main] INFO  testCases.TC001_AccountRegistrationTest - **************providing customer details ************
+2026-07-10 22:40:25.409 [main] INFO  testCases.TC001_AccountRegistrationTest - ************** validating expected message ************
+2026-07-10 22:40:28.457 [main] INFO  testCases.TC001_AccountRegistrationTest - **************finished  TC001_AccountRegistrationTest ************
+2026-07-10 22:40:33.262 [main] INFO  testCases.TC002_LoginTest - *************Starting TC02_Login test**********
+2026-07-10 22:40:51.568 [main] INFO  testCases.TC002_LoginTest - *************finshed TC02_Login test**********
